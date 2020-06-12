@@ -2,6 +2,7 @@
 sudo apt update
 sudo apt install zsh
 zsh
+## after you are in zsh shell install oh my zsh 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ##install a plugin for syntax highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting

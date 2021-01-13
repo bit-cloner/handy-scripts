@@ -1,0 +1,5 @@
+# Git add , commit , push
+
+function gp() {
+     git add . && git commit -am "$1" && git push
+}

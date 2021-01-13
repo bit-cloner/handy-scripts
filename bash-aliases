@@ -3,3 +3,22 @@
 function gp() {
      git add . && git commit -am "$1" && git push
 }
+
+## kubectl aliasses
+
+alias ka='kubectl apply -f'
+alias kd='kubectl delete -f'
+alias kg='kubectl get'
+alias kdes='kubectl describe'
+
+# Go aliases
+alias gra='go run *.go'
+alias grm='go run main.go'
+
+# Rust aliases
+alias cr='cargo run'
+alias cbr='cargo build --release'
+
+# Pulumi aliases
+alias p='pulumi'
+alias pu='pulumi up'
